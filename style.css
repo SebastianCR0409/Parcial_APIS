@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+#button_search {
+    width: 40%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: larger;
+}
+
+#country-information {
+    width: 80%;
+    height: 300px;
+    background-color: floralwhite;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+#show-info {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#show-info p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+}
